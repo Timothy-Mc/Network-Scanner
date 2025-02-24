@@ -8,7 +8,7 @@ This project is a Python-based network port scanner that leverages both the `soc
 - **Scapy SYN Scanning:** Sends TCP SYN packets to gather more detailed information about port states.
 - **Sequential Scanning:** Processes each IP and port one at a time to avoid issues related to multi-threading.
 - **Interactive Input:** Provides menus to enter a single IP, a range of IPs (CIDR or start-end format), or a list of IPs, as well as various options for port selection.
-- **Logging:** Implements logging to track progress and errors, making it easier to troubleshoot and analyze results.
+- **Logging:** Implements logging to track progress and errors, making it easier to troubleshoot and analyse results.
 
 ## Disclaimer
 **IMPORTANT:** This tool is intended only for use on systems where you have explicit permission to scan. Unauthorized scanning is illegal and unethical. Use this tool responsibly and at your own risk.
@@ -32,7 +32,7 @@ This project is a Python-based network port scanner that leverages both the `soc
         python port_scanner.py
         ```
   3. **Follow the Prompts:**
-      - Confirm authorization and read the legal disclaimer.
+      - Confirm authorisation and read the legal disclaimer.
       - Choose your target specification (single IP, range, or list).
       - Choose your port specification (predefined, single, custom range, or list).
       - The scanner will first run a basic socket scan and then a detailed scan using scapy.
